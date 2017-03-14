@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmpresaDAOImpl extends DAOImpl<Empresa> {
+public class EmpresaDAOImpl extends DAOImpl<Empresa> implements EmpresaDAO {
 
     public EmpresaDAOImpl(){
         super(Database.Databases.ProjetoIntegrado);
